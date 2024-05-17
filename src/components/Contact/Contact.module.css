@@ -1,0 +1,35 @@
+div {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+p svg {
+  margin-right: 8px;
+}
+
+.btn {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
